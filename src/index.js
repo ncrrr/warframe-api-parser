@@ -8,6 +8,6 @@ const app = express();
 app.use(routes);
 
 app.listen(PORT, () => {
-  console.log(`[server] Listening on http://localhost:${PORT}`);
+  console.log(`[server] Listening on http://0.0.0.0:${PORT}`);
   startPolling();
 });
