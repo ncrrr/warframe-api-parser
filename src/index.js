@@ -7,7 +7,7 @@ const app = express();
 
 app.use(routes);
 
-app.listen(PORT, () => {
+app.listen(PORT, 'kitty-hosting.com', () => {
   console.log(`[server] Listening on http://0.0.0.0:${PORT}`);
   startPolling();
 });
